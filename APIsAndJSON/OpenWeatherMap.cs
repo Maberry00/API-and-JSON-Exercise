@@ -1,10 +1,13 @@
-﻿using System;
-using System.Net.Http;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace OpenWeatherMap
+namespace APIsAndJSON
 {
-    internal class OpenWeatherMapAPI
+    internal class OpenWeatherMap
     {
         var client = new HttpClient();
 
