@@ -9,9 +9,12 @@ namespace APIsAndJSON
     {
        static void Main(string[] args) 
         {
-            RonVSKanyeAPI.kanyeQuote();
+            RonVSKanyeAPI.Convo();
 
-            RonVSKanyeAPI.ronQuote();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            OpenWeatherMapAPI.CurrentWeather();
         }
     }
 }

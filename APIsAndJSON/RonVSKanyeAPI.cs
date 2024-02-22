@@ -7,7 +7,7 @@ namespace APIsAndJSON
 {
     internal class RonVSKanyeAPI
     {
-        static void kanyeQuote()
+        public static void KanyeQuote()
         {
             var client = new HttpClient();
 
@@ -22,7 +22,7 @@ namespace APIsAndJSON
             Console.WriteLine();
         }
 
-        static void ronQuote()
+        public static void RonQuote()
         {
             var client = new HttpClient();
             var ronURL = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
@@ -36,7 +36,8 @@ namespace APIsAndJSON
         {
             for (int i = 0; i < 5; i++)
             {
-
+                KanyeQuote();
+                RonQuote();
             }
         }
     }
